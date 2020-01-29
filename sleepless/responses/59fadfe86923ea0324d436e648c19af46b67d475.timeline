@@ -1,0 +1,157 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://my.goabode.com/api/v1/panel/mode/1/home",
+		"timestamp": 1580261411239
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.64.1 (SecureTransport) LibreSSL/2.8.3 zlib/1.2.11 nghttp2/1.39.2",
+		"timestamp": 1580261411239
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-01-29T01:30:11.239Z",
+		"timestamp": 1580261411239
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1580261411239
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1580261411239
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1580261411239
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 2 cookies",
+		"timestamp": 1580261411239
+	},
+	{
+		"name": "TEXT",
+		"value": "Found bundle for host my.goabode.com: 0x7fb38bb18770 [can multiplex]\n",
+		"timestamp": 1580261411243
+	},
+	{
+		"name": "TEXT",
+		"value": "Re-using existing connection! (#5) with host my.goabode.com\n",
+		"timestamp": 1580261411243
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to my.goabode.com (35.165.181.118) port 443 (#5)\n",
+		"timestamp": 1580261411243
+	},
+	{
+		"name": "TEXT",
+		"value": "Using Stream ID: 5 (easy handle 0x7fb38c288200)\n",
+		"timestamp": 1580261411243
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "PUT /api/v1/panel/mode/1/home HTTP/2\r\nHost: my.goabode.com\r\nUser-Agent: insomnia/1.0.0\r\nCookie: SESSION=4t5nlqjsb4lpid2la1qveo8p27; uuid=auobwfapwgihbai2fa2fa2ghajjj3ghsfa\r\nContent-Type: application/json\r\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1NTI2MiIsImlhdCI6MTU4MDI2MTM4OCwiZXhwIjoxNTgwMjY0OTg4LCJpc3MiOiJodHRwczpcL1wvbXkuZ29hYm9kZS5jb20iLCJhdWQiOlsiaHR0cHM6XC9cL215LmdvYWJvZGUuY29tIl0sImh0dHA6XC9cL2dvYWJvZGUuY29tXC9jbGFpbXNcLzIwMTdcL21hYyI6IkIwOkM1OkNBOjNDOjc2OjEwIn0.z7Q-6y8DwPI9CnYpqsdsswCXtCamG6ZPf0yIq6HG9QY\r\nABODE-API-KEY: web-4365b40ff4be067dc994d7c76660d60d\r\nAccept: */*\r\nContent-Length: 39\r\n\r\n",
+		"timestamp": 1580261411243
+	},
+	{
+		"name": "DATA_OUT",
+		"value": "{\n    \"area\": \"1\",\n    \"mode\": \"home\"\n}",
+		"timestamp": 1580261411243
+	},
+	{
+		"name": "TEXT",
+		"value": "We are completely uploaded and fine\n",
+		"timestamp": 1580261411243
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/2 200 \r\n",
+		"timestamp": 1580261411515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "date: Wed, 29 Jan 2020 01:30:11 GMT\r\n",
+		"timestamp": 1580261411515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-type: application/json; charset=utf-8\r\n",
+		"timestamp": 1580261411515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-length: 26\r\n",
+		"timestamp": 1580261411515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "server: nginx\r\n",
+		"timestamp": 1580261411515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-powered-by: PHP/7.1.12\r\n",
+		"timestamp": 1580261411515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "expires: Thu, 19 Nov 1981 08:52:00 GMT\r\n",
+		"timestamp": 1580261411515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "cache-control: no-store, no-cache, must-revalidate\r\n",
+		"timestamp": 1580261411515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "pragma: no-cache\r\n",
+		"timestamp": 1580261411515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-allow-origin: *\r\n",
+		"timestamp": 1580261411515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-allow-headers: ABODE-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method\r\n",
+		"timestamp": 1580261411515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE\r\n",
+		"timestamp": 1580261411515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-frame-options: SAMEORIGIN\r\n",
+		"timestamp": 1580261411515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "strict-transport-security: max-age=31536000; includeSubdomains\r\n",
+		"timestamp": 1580261411515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1580261411515
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 26 B chunk",
+		"timestamp": 1580261411515
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #5 to host my.goabode.com left intact\n",
+		"timestamp": 1580261411515
+	}
+]

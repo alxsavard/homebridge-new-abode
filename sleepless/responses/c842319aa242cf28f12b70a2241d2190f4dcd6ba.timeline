@@ -1,0 +1,147 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://my.goabode.com/api/auth2/claims",
+		"timestamp": 1580261041699
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.64.1 (SecureTransport) LibreSSL/2.8.3 zlib/1.2.11 nghttp2/1.39.2",
+		"timestamp": 1580261041699
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-01-29T01:24:01.699Z",
+		"timestamp": 1580261041699
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1580261041699
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1580261041699
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1580261041699
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 2 cookies",
+		"timestamp": 1580261041699
+	},
+	{
+		"name": "TEXT",
+		"value": "Found bundle for host my.goabode.com: 0x7fb38aef0740 [can multiplex]\n",
+		"timestamp": 1580261041703
+	},
+	{
+		"name": "TEXT",
+		"value": "Re-using existing connection! (#4) with host my.goabode.com\n",
+		"timestamp": 1580261041703
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to my.goabode.com (52.25.106.252) port 443 (#4)\n",
+		"timestamp": 1580261041703
+	},
+	{
+		"name": "TEXT",
+		"value": "Using Stream ID: 3 (easy handle 0x7fb38c2efa00)\n",
+		"timestamp": 1580261041703
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "GET /api/auth2/claims HTTP/2\r\nHost: my.goabode.com\r\nUser-Agent: insomnia/1.0.0\r\nCookie: SESSION=4t5nlqjsb4lpid2la1qveo8p27; uuid=auobwfapwgihbai2fa2fa2gha3ghsfa\r\nABODE-API-KEY: web-dd2362481e76341ea29a61f2803237da\r\nAccept: */*\r\n\r\n",
+		"timestamp": 1580261041703
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/2 200 \r\n",
+		"timestamp": 1580261041834
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "date: Wed, 29 Jan 2020 01:24:01 GMT\r\n",
+		"timestamp": 1580261041834
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-type: application/json; charset=utf-8\r\n",
+		"timestamp": 1580261041834
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-length: 379\r\n",
+		"timestamp": 1580261041834
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "server: nginx\r\n",
+		"timestamp": 1580261041834
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-powered-by: PHP/7.1.12\r\n",
+		"timestamp": 1580261041834
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "expires: Thu, 19 Nov 1981 08:52:00 GMT\r\n",
+		"timestamp": 1580261041834
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "cache-control: no-store, no-cache, must-revalidate\r\n",
+		"timestamp": 1580261041834
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "pragma: no-cache\r\n",
+		"timestamp": 1580261041834
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-allow-origin: *\r\n",
+		"timestamp": 1580261041834
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-allow-headers: ABODE-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method\r\n",
+		"timestamp": 1580261041834
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE\r\n",
+		"timestamp": 1580261041834
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-frame-options: SAMEORIGIN\r\n",
+		"timestamp": 1580261041834
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "strict-transport-security: max-age=31536000; includeSubdomains\r\n",
+		"timestamp": 1580261041834
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1580261041834
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 379 B chunk",
+		"timestamp": 1580261041834
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #4 to host my.goabode.com left intact\n",
+		"timestamp": 1580261041834
+	}
+]

@@ -11,6 +11,8 @@ module.exports = class AbodeApi {
   }
 
   async home() {
+    await this.claims();
+
     return await this.api.put(
       `/v1/panel/mode/1/home`,
       {
@@ -26,6 +28,8 @@ module.exports = class AbodeApi {
   }
 
   async standby() {
+    await this.claims();
+
     return await this.api.put(
       `/v1/panel/mode/1/standby`,
       {
@@ -41,6 +45,8 @@ module.exports = class AbodeApi {
   }
 
   async away() {
+    await this.claims();
+
     return this.api.put(
       `/v1/panel/mode/1/away`,
       {

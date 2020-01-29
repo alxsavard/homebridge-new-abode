@@ -1,0 +1,302 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://my.goabode.com/api/v1/panel/mode/1/home",
+		"timestamp": 1580258051442
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.64.1 (SecureTransport) LibreSSL/2.8.3 zlib/1.2.11 nghttp2/1.39.2",
+		"timestamp": 1580258051442
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-01-29T00:34:11.442Z",
+		"timestamp": 1580258051442
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1580258051442
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1580258051442
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1580258051442
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 0 cookies",
+		"timestamp": 1580258051442
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying 35.165.181.118...\n",
+		"timestamp": 1580258051505
+	},
+	{
+		"name": "TEXT",
+		"value": "TCP_NODELAY set\n",
+		"timestamp": 1580258051505
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to my.goabode.com (35.165.181.118) port 443 (#0)\n",
+		"timestamp": 1580258051610
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering h2\n",
+		"timestamp": 1580258051610
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering http/1.1\n",
+		"timestamp": 1580258051610
+	},
+	{
+		"name": "TEXT",
+		"value": "successfully set certificate verify locations:\n",
+		"timestamp": 1580258051624
+	},
+	{
+		"name": "TEXT",
+		"value": "  CAfile: /etc/ssl/cert.pem\n  CApath: none\n",
+		"timestamp": 1580258051624
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (OUT), TLS handshake, Client hello (1):\n",
+		"timestamp": 1580258051624
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (IN), TLS handshake, Server hello (2):\n",
+		"timestamp": 1580258051727
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (IN), TLS handshake, Certificate (11):\n",
+		"timestamp": 1580258051727
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (IN), TLS handshake, Server key exchange (12):\n",
+		"timestamp": 1580258051730
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (IN), TLS handshake, Server finished (14):\n",
+		"timestamp": 1580258051737
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (OUT), TLS handshake, Client key exchange (16):\n",
+		"timestamp": 1580258051738
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):\n",
+		"timestamp": 1580258051738
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (OUT), TLS handshake, Finished (20):\n",
+		"timestamp": 1580258051741
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (IN), TLS change cipher, Change cipher spec (1):\n",
+		"timestamp": 1580258051842
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (IN), TLS handshake, Finished (20):\n",
+		"timestamp": 1580258051843
+	},
+	{
+		"name": "TEXT",
+		"value": "SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256\n",
+		"timestamp": 1580258051843
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, server accepted to use h2\n",
+		"timestamp": 1580258051843
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate:\n",
+		"timestamp": 1580258051843
+	},
+	{
+		"name": "TEXT",
+		"value": " subject: CN=*.goabode.com\n",
+		"timestamp": 1580258051843
+	},
+	{
+		"name": "TEXT",
+		"value": " start date: Jan 21 00:00:00 2020 GMT\n",
+		"timestamp": 1580258051843
+	},
+	{
+		"name": "TEXT",
+		"value": " expire date: Feb 21 12:00:00 2021 GMT\n",
+		"timestamp": 1580258051843
+	},
+	{
+		"name": "TEXT",
+		"value": " subjectAltName: host \"my.goabode.com\" matched cert's \"*.goabode.com\"\n",
+		"timestamp": 1580258051843
+	},
+	{
+		"name": "TEXT",
+		"value": " issuer: C=US; O=Amazon; OU=Server CA 1B; CN=Amazon\n",
+		"timestamp": 1580258051843
+	},
+	{
+		"name": "TEXT",
+		"value": " SSL certificate verify ok.\n",
+		"timestamp": 1580258051843
+	},
+	{
+		"name": "TEXT",
+		"value": "Using HTTP2, server supports multi-use\n",
+		"timestamp": 1580258051843
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection state changed (HTTP/2 confirmed)\n",
+		"timestamp": 1580258051843
+	},
+	{
+		"name": "TEXT",
+		"value": "Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0\n",
+		"timestamp": 1580258051843
+	},
+	{
+		"name": "TEXT",
+		"value": "Using Stream ID: 1 (easy handle 0x7fb390945200)\n",
+		"timestamp": 1580258051843
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "PUT /api/v1/panel/mode/1/home HTTP/2\r\nHost: my.goabode.com\r\nUser-Agent: insomnia/1.0.0\r\nContent-Type: application/json\r\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1NTI2MiIsImlhdCI6MTU4MDI1NzYyNCwiZXhwIjoxNTgwMjYxMjI0LCJpc3MiOiJodHRwczpcL1wvbXkuZ29hYm9kZS5jb20iLCJhdWQiOlsiaHR0cHM6XC9cL215LmdvYWJvZGUuY29tIl0sImh0dHA6XC9cL2dvYWJvZGUuY29tXC9jbGFpbXNcLzIwMTdcL21hYyI6IkIwOkM1OkNBOjNDOjc2OjEwIn0.qcdwXzll4QyN_jrdKZ1a56TCr6fnU7OmUfLFM_a0vzs\r\nABODE-API-KEY: web-dd2362481e76341ea29a61f2803237da\r\nAccept: */*\r\nContent-Length: 39\r\n\r\n",
+		"timestamp": 1580258051843
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection state changed (MAX_CONCURRENT_STREAMS == 128)!\n",
+		"timestamp": 1580258051843
+	},
+	{
+		"name": "DATA_OUT",
+		"value": "{\n    \"area\": \"1\",\n    \"mode\": \"home\"\n}",
+		"timestamp": 1580258051843
+	},
+	{
+		"name": "TEXT",
+		"value": "We are completely uploaded and fine\n",
+		"timestamp": 1580258051843
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/2 200 \r\n",
+		"timestamp": 1580258052341
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "date: Wed, 29 Jan 2020 00:34:12 GMT\r\n",
+		"timestamp": 1580258052341
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-type: application/json; charset=utf-8\r\n",
+		"timestamp": 1580258052341
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-length: 26\r\n",
+		"timestamp": 1580258052341
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "server: nginx\r\n",
+		"timestamp": 1580258052341
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-powered-by: PHP/7.1.12\r\n",
+		"timestamp": 1580258052341
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: SESSION=4t5nlqjsb4lpid2la1qveo8p27; path=/\r\n",
+		"timestamp": 1580258052342
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "expires: Thu, 19 Nov 1981 08:52:00 GMT\r\n",
+		"timestamp": 1580258052342
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "cache-control: no-store, no-cache, must-revalidate\r\n",
+		"timestamp": 1580258052342
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "pragma: no-cache\r\n",
+		"timestamp": 1580258052342
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-allow-origin: *\r\n",
+		"timestamp": 1580258052342
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-allow-headers: ABODE-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method\r\n",
+		"timestamp": 1580258052342
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE\r\n",
+		"timestamp": 1580258052342
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-frame-options: SAMEORIGIN\r\n",
+		"timestamp": 1580258052342
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "strict-transport-security: max-age=31536000; includeSubdomains\r\n",
+		"timestamp": 1580258052342
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1580258052342
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 26 B chunk",
+		"timestamp": 1580258052342
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #0 to host my.goabode.com left intact\n",
+		"timestamp": 1580258052342
+	},
+	{
+		"name": "TEXT",
+		"value": "Saved 1 cookie",
+		"timestamp": 1580258052358
+	}
+]
