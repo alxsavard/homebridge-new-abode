@@ -1,5 +1,7 @@
-var Service;
-var Characteristic;
+let AbodeApi = require('./abodeApi');
+
+let Service;
+let Characteristic;
 
 module.exports = function (homebridge) {
 	Service = homebridge.hap.Service;
@@ -8,20 +10,28 @@ module.exports = function (homebridge) {
 };
 
 function AbodeAlarmAccessory(log, config) {
-	this.abode = require('abode-api').abode(config.abode.username, config.abode.password);
+	this.abode = new AbodeApi(config.abode.username, config.abode.password);
 	this.log = log;
 	this.name = config.name;
 
-	this.lockService = new Service.SecuritySystem(this.name);
+	this.abode.login().then((loginRes) => {
+		this.abode.claims().then((claimsRes) => {
+			this.lockService = new Service.SecuritySystem(this.name);
 
-	this.lockService
-		.getCharacteristic(Characteristic.SecuritySystemTargetState)
-		.on('get', this.getAlarmStatus.bind(this))
-		.on('set', this.setAlarmStatus.bind(this));
+			this.lockService
+				.getCharacteristic(Characteristic.SecuritySystemTargetState)
+				.on('get', this.getAlarmStatus.bind(this))
+				.on('set', this.setAlarmStatus.bind(this));
 
-	this.lockService
-		.getCharacteristic(Characteristic.SecuritySystemCurrentState)
-		.on('get', this.getAlarmStatus.bind(this));
+			this.lockService
+				.getCharacteristic(Characteristic.SecuritySystemCurrentState)
+				.on('get', this.getAlarmStatus.bind(this));
+		}).catch((err) => {
+			this.log(`${this.name}: ERROR GETTING CLAIMS ${err}`);
+		});
+	}).catch((err) => {
+		this.log(`${this.name}: ERROR LOGIN IN ${err}`);
+	});
 }
 
 AbodeAlarmAccessory.prototype.getAlarmStatus = function (callback) {
@@ -63,16 +73,16 @@ function changeStatus(state) {
 
 	switch (state) {
 		case Characteristic.SecuritySystemTargetState.STAY_ARM:
-			operation = this.abode.mode.home();
+			operation = this.abode.home();
 			break;
 		case Characteristic.SecuritySystemTargetState.AWAY_ARM :
-			operation = this.abode.mode.away();
+			operation = this.abode.away();
 			break;
 		case Characteristic.SecuritySystemTargetState.NIGHT_ARM:
-			operation = this.abode.mode.home();
+			operation = this.abode.home();
 			break;
 		case Characteristic.SecuritySystemTargetState.DISARM:
-			operation = this.abode.mode.standby();
+			operation = this.abode.standby();
 			break;
 	}
 
@@ -102,3 +112,5 @@ AbodeAlarmAccessory.prototype.getServices = function () {
 	this.log(`${this.name}: Getting Services`);
 	return [this.lockService];
 };
+
+AbodeAlarmAccessory(console.log, { name: 'Abode', accessory: 'Abode', abode: { username: 'alx.savard@gmail.com', password: '*5iXF5e$tceEFF#0' } });
