@@ -25,6 +25,7 @@ Configuration sample:
 
 ```
 
+test
 ## Abode API
 
 I created and am using [abode-api](https://github.com/hbeckeri/abode-api) to control the alam to get the status of the door contact in my other library [homebridge-abode-garage](https://github.com/hbeckeri/homebridge-abode-garage).
